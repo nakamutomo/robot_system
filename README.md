@@ -103,7 +103,7 @@ ___
 
 ##### LEDを点灯させ、ブザーを鳴らしながら「私は元気です（watasihagennkidesu）」とモールス信号を打つ
 ```
-$ echo  > dev/myled0
+$ echo 2 > dev/myled0
 ```
 ___
 
