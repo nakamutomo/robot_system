@@ -9,22 +9,26 @@ ___
 
 ## 動作環境
 
-- Raspberry Pi 4 Model B+
+- Raspberry Pi 4
 
 - OS  :  ubuntu 20.04 server
  
 ___
 
 ## 使用したもの
-- Raspberry Pi 4 Model B+ × 1
+- Raspberry Pi 4 × 1
 
 - LED × 1
+
+- 電子ブザー × 1
 
 - 抵抗(220Ω) × 1
 
 - ブレッドボード × 1
 
 - ジャンパー線（オスメス）× 2
+
+- ジャンパー線（オスオス）× 2
 
 ___
 
@@ -46,7 +50,7 @@ ___
 <img src="" width = "720">
 
 
-- LED1（赤色）:  22（GPIO25）
+- LED（赤色）:  22（GPIO25）
 
 ___
 
@@ -58,9 +62,9 @@ ___
 以下のコマンドを実行してください。
 
 ```
-$ git clone https://github.com/nakamutomo/robot_system_myled.git
+$ git clone https://github.com/nakamutomo/robot_system.git
 
-$ cd robot_system_myled
+$ cd robot_system
 
 $ make
 
@@ -81,22 +85,25 @@ $ make clean
 ___
 
 #### 【実行】
-
- ※ページ下に実行時の動画があります。
  
  インストール後に以下のコマンドを実行してください。
  ___
  
+ ##### すべての動作を停止する
+```
+$ echo 0 > dev/myled0
+```
+___
  
-##### LED1を点灯させる
+##### LEDを点灯させ、ブザーを鳴らす
 ```
 $ echo 1 > /dev/myled0
 ```
 ___
 
-##### すべての動作をやめさせる
+##### LEDを点灯させ、ブザーを鳴らしながら「私は元気です（watasihagennkidesu）」とモールス信号を打つ
 ```
-$ echo 0 > dev/myled0
+$ echo  > dev/myled0
 ```
 ___
 
@@ -108,4 +115,4 @@ https://youtu.be
 ___
 
 ## ライセンス
-  [GNU General Public License v3.0](https://github.com/nakamutomo/robot_system_myled/blob/main/COPYING)
+  [GNU General Public License v3.0](https://github.com/nakamutomo/robot_system/blob/main/COPYING)
