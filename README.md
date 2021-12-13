@@ -42,7 +42,8 @@ ___
 
 - 配線図
 
-<img src = "" width = "720">
+<img src = "https://user-images.githubusercontent.com/76559344/145755819-d2802e5f-b799-4224-9483-9d0adee4a8d0.jpg" width = "720">
+<img src = "https://user-images.githubusercontent.com/76559344/145755968-eb20745e-15e9-40b6-a23d-2887c1e1ac61.jpg" width = "720">
 
 
 - pin情報
