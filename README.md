@@ -35,7 +35,7 @@ ___
 
 - 回路図
 
-<img src  = "https://user-images.githubusercontent.com/76559344/145758300-544486f7-efc7-466e-b55a-6d2abd46155d.png" width = "720">
+<img src  = "https://user-images.githubusercontent.com/76559344/145761914-6399beee-e207-4666-b481-769b5801aef5.png" width = "720">
 
 
 - 配線図
