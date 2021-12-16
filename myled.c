@@ -18,6 +18,7 @@ static volatile u32 *gpio_base = NULL;
 
 static ssize_t led_write(struct file* filp, const char* buf, size_t count, loff_t *pos)
 {
+
         int i;
         char c;
         char sig[] = "*-- *- - *- *** ** **** *- --* * -* -* -*- ** -** * *** **-";
