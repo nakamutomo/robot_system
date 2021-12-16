@@ -90,7 +90,7 @@ ___
  
  ##### すべての動作を停止する
 ```
-$ echo 0 > dev/myled0
+$ echo 0 > /dev/myled0
 ```
 ___
  
@@ -102,7 +102,7 @@ ___
 
 ##### LEDを点灯させ、ブザーを鳴らしながら「私は元気です（watasihagennkidesu）」とモールス信号を打つ
 ```
-$ echo 2 > dev/myled0
+$ echo 2 > /dev/myled0
 ```
 ___
 
