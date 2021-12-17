@@ -1,8 +1,8 @@
-# robot_system_myled
+# robot_system
 
 2021年度ロボットシステム学の課題1で作成したデバイスドライバです。
 
-入力数字された数字に応じてLEDが点灯・消灯し、それに合わせてブザーが鳴ります。
+入力された数字に応じてLEDが点灯・消灯し、それに合わせてブザーが鳴ります。
 
 ___
 
@@ -49,7 +49,7 @@ ___
 <img src="https://user-images.githubusercontent.com/76559344/145723608-bec0a042-80bd-47a8-81da-c50a29f65553.png" width = "720">
 
 
-- LED（赤色）:  22（GPIO25）
+- LED　:  22（GPIO25）
 
 ___
 
