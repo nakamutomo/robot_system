@@ -46,7 +46,7 @@ ___
 
 - pin情報
  
-<img src="" width = "720">
+<img src="https://user-images.githubusercontent.com/76559344/146491120-6666cf5c-5893-43f1-9d3d-88812d54b4ff.png" width = "720">
 
 
 - LED　:  22（GPIO25）
@@ -121,3 +121,5 @@ ___
 
 ## 参考
   [参考にさせていただいた方のREADME](https://github.com/ryuseiiiii/robosys_device_drivers/blob/main/README.md)
+  [pin情報の作成時に参考にさせていただいた方のサイト](https://techhobby.net/2020/04/13/raspberry-pi%E3%81%AEgpio%E3%83%94%E3%83%B3%E3%81%AE%E9%9B%BB%E6%B0%97%E7%9A%84%E4%BB%95%E6%A7%98/)
+
