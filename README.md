@@ -46,7 +46,7 @@ ___
 
 - pin情報
  
-<img src="https://user-images.githubusercontent.com/76559344/145723608-bec0a042-80bd-47a8-81da-c50a29f65553.png" width = "720">
+<img src="" width = "720">
 
 
 - LED　:  22（GPIO25）
